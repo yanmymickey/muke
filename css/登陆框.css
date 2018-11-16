@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main{
+	margin: 50px auto;
+	width: 370px;
+	height: 420px;
+	box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+	border-radius: 12px;
+	position: relative;
+}
+#lor{
+	width: 100%;
+	height: 49px;
+}
+#login{
+	font-size: 16px;
+	line-height: 49px;
+	font-weight: 700;
+	height: 49px;
+	color: #787d82;
+	position: relative;
+	float: left;
+	margin: 10px 20px;
+	cursor: pointer;
+	color: #F20D0D;
+}
+
+#login::after{
+	content: " ";
+    width: 16px;
+    height: 4px;
+    line-height: 4px;
+    background: #F20D0D;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+#register{
+	font-size: 16px;
+	line-height: 49px;
+	font-weight: 700;
+	height: 49px;
+	color: #787d82;
+	position: relative;
+	float: left;
+	margin: 10px 20px;
+	cursor: pointer;
+}
+#register:hover{
+	color: #F20D0D;
+}
+#register:hover:after{
+	content: " ";
+    width: 16px;
+    height: 4px;
+    line-height: 4px;
+    background: #F20D0D;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto;
+}
+#anbox{
+	width:320px;
+	height: 48px;
+	position: relative;
+	float: left;
+	margin: 25px 20px 10px 20px;
+	border-radius: 5px;
+	background-color: rgba(28,31,33,.06);
+	box-shadow: 2px 0 5px 0 #fff;
+}
+#AccountNumber{
+	border: none;
+	border-radius: 5px;
+	color: #9199A1;
+	font-size: 16px;
+	background-color: initial;
+	width: 280px;
+	height: 38px;
+	margin: 5px 10px;
+}
+#pdbox{
+	width:320px;
+	height: 48px;
+	position: relative;
+	float: left;
+	margin: 5px 20px;
+	border-radius: 5px;
+	background-color: rgba(28,31,33,.06);
+	box-shadow: 2px 0 5px 0 #fff;
+}
+#password{
+	border: none;
+	border-radius: 5px;
+	color: #9199A1;
+	font-size: 16px;
+	background-color: initial;
+	width: 280px;
+	height: 38px;
+	margin: 5px 10px;
+}
+
+#vcbox{
+	width:200px;
+	height: 48px;
+	position: relative;
+	float: left;
+	margin: 5px 0px 5px 20px;
+	border-radius: 5px;
+	background-color: rgba(28,31,33,.06);
+	box-shadow: 2px 0 5px 0 #fff;
+}
+#vc{
+	border: none;
+	border-radius: 5px;
+	color: #9199A1;
+	font-size: 12px;
+	background-color: initial;
+	width: 180px;
+	height: 38px;
+	margin: 5px 10px;
+}
+img{
+	width: 90px;
+	height: 48px;
+	float: left;
+	position: relative;
+	margin: 5px 20px;
+	cursor: pointer;
+}
+
+#mode{
+	position: relative;
+	float: left;
+	margin: 10px 20px;
+	color: #9199A1;
+	font-size: 14.5px;
+}
+#seven{
+	cursor: pointer;
+	font-size: 0;
+}
+#find{
+	cursor: pointer;
+	
+}
+#find:hover{
+	color: black;
+}
+#cnl{
+	cursor: pointer;
+	
+}
+#cnl:hover{
+	color: black;
+}
+#find::after{
+	content: "|";
+}
+#find:hover::after{
+	color: #9199A1;
+}
+#loginbutton{
+	color: #fff;
+	background-color: #f20d0d;
+	opacity: 1;
+	margin: 5px 20px;
+	position: relative;
+	float: left;
+	width: 320px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 24px;
+	transition: all .3s;
+	border: solid #f20d0d;
+}
+#loginbutton:hover{
+	background: #c20a0a;
+	border: solid #c20a0a;
+}
+#loginWays{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	float: left;
+	margin: 20px;
+	color: #9199A1;
+	font-size: 20px;
+}
+#sms{
+	color:#f20d0d ;
+	cursor: pointer;
+	transition: all .3s;
+	margin: 0 20px 0 30px;
+	font-size: 15px;
+	
+}
+#sms:hover{
+	color: #c20a0a;
+}
+#sms::after{
+	content: "  ";
+}
+
+#weibo:hover{color: #f20d0d;}
+#weichat:hover{color: #00b33b;}
+#qq:hover{color: #08c;}

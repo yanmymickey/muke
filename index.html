@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/登陆框.css"/>
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<script type="text/javascript" src="js/登录框.js" ></script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="lor">
+				<span id="login" class="active">登录</span>
+				<span id="register">注册</span>
+			</div>
+			<form id="enter">	
+				<div id="anbox"><input id="AccountNumber" name="username"  type="text" placeholder="请输入登陆手机号/邮箱"/></div>
+				<div id="pdbox"><input id="password" name="password"  type="password" placeholder="请输入密码"/></div>
+				<div id="vcbox"><input id="vc" name="code" type="text" placeholder="请输入验证码"/></div>
+				<img id="vcimg" onclick="this.src='http://tech.sky31.top/code.php?m='+Math.random()" src="http://tech.sky31.top/code.php"/>
+				<div id="mode">
+					<input  id="seven" type="checkbox" checked="checked">&nbsp;7天内自动登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+					<span id="find">找回密码&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span id="cnl">&nbsp;&nbsp;&nbsp;&nbsp;无法登录</span>
+				</div>
+				<input type="button" id="loginbutton" onclick="login()" value="登录" />
+			</form>
+			<div id="loginWays">
+				<span id="sms">手机短信登录</span>|&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-weibo" id="weibo">&nbsp;&nbsp;&nbsp;</i>
+				<i class="fa fa-wechat" id="weichat">&nbsp;&nbsp;&nbsp;</i>
+				<i class="fa fa-qq" id="qq"></i>
+			</div>
+			<p id=""></p>
+		</div>
+	</body>
+</html>
